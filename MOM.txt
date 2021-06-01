@@ -1,0 +1,19 @@
+MEETING-1
+
+DATE:01/06/21
+
+MEMBERS:
+1.SHUBHRA AGARWAL
+2.KARAN BENGANI
+3.RISHABH ABHANI
+4.PRATYUSHA ROUTH
+5.AAKRITI RAWAT
+6.ALURU LEELA RANI
+
+DISCUSSION: 
+1.Project idea discussion
+2.Github repository created
+3.Discord channel created for doubts and meetings
+4.Aakriti Rawat to get started with the project
+5.Aluru Leela Rani to get started with the learning process
+
