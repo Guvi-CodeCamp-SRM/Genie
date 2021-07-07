@@ -38,4 +38,13 @@ issue_c segmentation fault
  
   
 # Available Languages
-  C, C++, C#, Python, HTML, PHP, Java Script, CSS, SQL, Swift 
+- C
+- C++
+- C#
+- Python
+- HTML
+- PHP
+- Java Script
+- CSS
+- SQL
+- Swift 
