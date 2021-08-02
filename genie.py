@@ -1,4 +1,3 @@
-#importing libraries
 import os
 import requests
 import discord
@@ -55,7 +54,7 @@ def web(message):
 
 
 def issue(message):
-  #code for GitHub issues
+  
   message = (message[6:]).replace(" ","+")
   msg = message.find("+")
   response = requests.get("https://github.com/search?l={}&q={}&type=Issues".format(message[:msg], message[msg+1:]))
@@ -80,7 +79,6 @@ def issue(message):
 
 
 def help():
-  #How to use the bot
   cont = 'Hi! I am Genie. I give solutions to all your coding problems. Here is how you can give commands to me:\ndoc_<programming_language> <your_doubt>  -for documentation\nEg: To get the documentation of for loop in java, the command should be "doc`_java for loop" \n' + 'issue`_<programming_language> <your_issue>  -for getting solutions to your errors/questions\nEg: To get suggestions to solve syntax error in python, command should be "issue_python syntax error"\nFor help, give "help".\nIf there is no response from me, give me a proper command.\nHappy coding! :)'
   return(cont)
 
@@ -91,25 +89,22 @@ def help():
 async def on_ready():
   print('We have logged in as {0.user}'.format(client))
 
-  
- #When user gives a command
 @client.event
 async def on_message(message):
   if message.author == client.user:
     return
-  if message.content.startswith('doc_python') or message.content.startswith('doc_c') or message.content.startswith('doc_cpp') or message.content.startswith('doc_csharp') or message.content.startswith('java') or message.content.startswith('swift'):
-    await message.channel.send(python(message.content)) 
+  if message.content.startswith('doc_python') or message.content.startswith('doc_c') or message.content.startswith('doc_cpp') or message.content.startswith('doc_csharp') or message.content.startswith('doc_java') or message.content.startswith('doc_swift'):
+    await message.channel.send('>>> ' + python(message.content)) 
 
-  if message.content.startswith('doc_js') or message.content.startswith('doc_html') or message.content.startswith('doc_css') or message.content.startswith('doc_sql') or message.content.startswith('php'):
-    await message.channel.send(web(message.content))
+  if message.content.startswith('doc_js') or message.content.startswith('doc_html') or message.content.startswith('doc_css') or message.content.startswith('doc_sql') or message.content.startswith('doc_php'):
+    await message.channel.send('>>> ' + web(message.content))
 
   if message.content.startswith('issue_'):
-    await message.channel.send(issue(message.content)) 
+    await message.channel.send('>>> ' + issue(message.content)) 
   
   if message.content == 'help':
-    await message.channel.send(help())
- 
-#Online always
+    await message.channel.send('>>> ' + help())
+  
 keep_alive()
 my_secret = os.environ['TOKEN']
 client.run(my_secret)
