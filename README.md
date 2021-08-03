@@ -1,4 +1,4 @@
-# Discord-Bot-Scraping a.k.a. Genie 🧞
+# Genie 🧞
 
 ## Project Description and Bot Functions :tada:
 >Genie aims to solve programming related doubts and issues. With this bot, one can get the documentation of any topic, answers to their questions and suggestions to get rid of any bugs from the languages available.
