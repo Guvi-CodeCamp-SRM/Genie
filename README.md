@@ -1,7 +1,7 @@
 # Genie 🧞
 
 ## Project Description and Bot Functions :tada:
->Genie aims to solve programming related doubts and issues. With this bot, one can get the documentation of any topic, answers to their questions and suggestions to get rid of any bugs from the languages available.
+>Genie aims to solve programming related doubts and issues. With Genie, one can get the documentation of any topic, answers to their questions and suggestions to get rid of any bugs from the languages available.
 
 ## Tech-Stack 💻
 
@@ -54,3 +54,5 @@ https://discord.com/api/oauth2/authorize?client_id=862085467405942784&permission
 - AAKRITI RAWAT               
 - ALURU LEELA RANI
 
+## NOTE
+If Genie is not able to send messages or if Genie is not visible in the channel even after executing correct commands, make sure the bot is given Administrator role.
