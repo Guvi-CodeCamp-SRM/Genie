@@ -34,7 +34,7 @@ https://discord.com/api/oauth2/authorize?client_id=862085467405942784&permission
 - SQL
 - Swift 
 
-## Language and there syntax :book:
+## Languages and there syntax :book:
 | Language  | Syntax |
 | :---: | :---: |
 | C  | `doc_c <topic>`  `issue_c <error>` |
