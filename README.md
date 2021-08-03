@@ -25,6 +25,7 @@ https://discord.com/api/oauth2/authorize?client_id=862085467405942784&permission
 - C
 - C++
 - C#
+- CSS
 - HTML
 - Java
 - Java Script
@@ -36,16 +37,17 @@ https://discord.com/api/oauth2/authorize?client_id=862085467405942784&permission
 ## Language and there syntax :book:
 | Language  | Syntax |
 | :---: | :---: |
-| C  | doc_c <topic>  |
-| C++  | doc_cpp <topic>  |
-| C#  | doc_csharp <topic>  |
-| HTML  | doc_html <topic>  |
-| Java  | doc_java <topic>  |
-| Java Script  | doc_js <topic>  |
-| PHP  | doc_php <topic>  |
-| Python  | doc_python <topic>  |
-| SQL  | doc_sql <topic>  |
-| Swift  | doc_swift <topic>  |
+| C  | `doc_c <topic>`  `issue_c <error>` |
+| C++  | `doc_cpp <topic>`  `issue_cpp <error>` |
+| C#  | `doc_csharp <topic>`  `issue_csharp <error>` |
+| CSS  | `doc_css <topic>`  `issue_css <error>`  |
+| HTML  | `doc_html <topic>`  `issue_html <error>`  |
+| Java  | `doc_java <topic>`  `issue_java <error>`  |
+| Java Script  | `doc_js <topic>` `issue_js <error>`  |
+| PHP  | `doc_php <topic>`  `issue_php <error>`  |
+| Python  | `doc_python <topic>`  `issue_python <error>`  |
+| SQL  | `doc_sql <topic>`  `issue_sql <error>`  |
+| Swift  | `doc_swift <topic>`  `issue_swift <error>`  |
 
 ## Contributors 🤝
 
