@@ -55,4 +55,4 @@ https://discord.com/api/oauth2/authorize?client_id=862085467405942784&permission
 - ALURU LEELA RANI
 
 ## NOTE
-If Genie is not able to send messages or if Genie is not visible in the channel even after executing correct commands, make sure the bot is given Administrator role.
+If Genie is not able to send messages or if Genie is not visible in the channel even after executing correct commands, make sure the bot is given Administrator role. 
